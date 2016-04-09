@@ -1,0 +1,232 @@
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Lobster', cursive;
+*/
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+
+
+/*ETIQUETAS*/
+body{
+background-image: url(../img/fondo1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1{
+font-family: 'Lobster', cursive;
+color: #2b93b0;
+margin-left: 10px;
+font-size: 70px;
+text-align: center; 
+}
+
+h2{
+font-family: 'Open Sans', sans-serif;/*titulo del article*/
+color: #ededf8;
+font-size: 30px; /*tamaño letra*/
+text-align: center; 
+}
+
+h3{
+font-family: 'Raleway', sans-serif;
+color: #ededf8;
+margin-left: 10px;
+font-size: 20px;
+text-align: center; 
+}
+
+h4{
+font-family: 'Raleway', sans-serif;/* losh4 son los titulos de los aside*/
+color: #ededf8;
+margin-left: 10px;
+font-size: 20px;
+text-align: center; 
+}
+
+header{
+	width: 1000px;
+	height: 120 px;
+	background:rgba(255, 255, 255, 10,70)
+}
+
+nav{
+width: 1000px;
+height: 55px;
+background: teal;
+border-radius: 12px;
+}
+ul{
+margin: auto;
+padding-top: 4px;
+}
+
+/*MENU*/
+li{
+	float: left;/*los alinea de manera horizontal a la izquierda*/
+	list-style-type: none;
+	padding: 10px;
+	background: teal;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset; /*sombra de los botones*/
+}
+
+/*CLASES*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+
+.menu:link{color: white; text-decoration: none;}
+.menu:visited{color:white; text-decoration:none;}
+.menu:hover{color:white; text-decoration:none; text-shadow: 0 0 17px white;}
+.menu:active{color:white; text-decoration:none;}
+
+.imglogo {
+	width: 200px;
+	position: absolute;
+	top: 3px;
+	right: -8px;
+}
+section{
+	width: 700px;
+	height: auto;
+	background: teal;
+	float: left;/*alineado a la izq.*/
+	margin-top: 20px;/*margen superior para separar del fooler*/
+	border-radius: 10px;
+	}
+
+aside{
+	width: 280px;
+	height: auto;
+	background: teal;
+	float: left;
+	margin-left: 20px; /*separa el asade del section*/
+	margin-top: 20px;
+	border-radius: 10px;/*bordo redondeado*/
+	box-shadow: 0 0 10px white inset; /*sombra de los botones*/
+}
+
+.imagenprincipal {
+    max-width: 600px; /*imagen perro y gato de la pagina ppal*/
+    height: auto;
+    width: auto; /* Bug de ie8 */
+}
+.imgarticlequienessomos {
+    max-width: 600px; /*imagen perro y gato de la pagina ppal*/
+    height: auto;
+    width: auto; /* Bug de ie8 */
+    left: 28%;
+	position: relative;
+}
+.imgarticlecontacto {
+    max-width: 600px; /*imagen perro y gato de la pagina ppal*/
+    height: auto;
+    width: auto; /* Bug de ie8 */
+    left: 28%;
+	position: relative;
+}
+
+.imagenaside {
+    max-width: 280px;
+	height: auto;
+	width: 90%;
+	margin-left: 13px;
+	margin-top: 20px;
+	}
+
+.imgasidequienessomos{
+ 	max-width: 280px;
+	height: auto;
+	width: 90%;
+	margin-left: 13px;
+	margin-top: 20px;
+	}
+
+.imgasidecontactos{
+ 	max-width: 280px;
+	height: auto;
+	width: 90%;
+	margin-left: 13px;
+	margin-top: 20px;
+	}
+.imgasidecontactos2{
+ 	max-width: 280px;
+	height: auto;
+	width: 90%;
+	margin-left: 13px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	}
+
+.imgasidemision{
+ 	max-width: 280px;
+	height: auto;
+	width: 90%;
+	margin-left: 13px;
+	margin-top: 20px;
+	}
+.imgasidemision2{
+ 	max-width: 280px;
+	height: auto;
+	width: 90%;
+	margin-left: 13px;
+	margin-top: 20px;
+	}
+
+footer{
+width: 1000px;/* debe contener el mismo ancho del contenedor*/
+height: 70px;
+background: teal;
+float: left;/*alinado horizontal a la izq*/
+margin-top: 20px;/*para separar el footer,el section y aside*/
+border-radius: 10px;
+margin-bottom: 20px;
+}
+
+.parrafoarticle{
+	font-size: 25px;/*tamaño*/
+	font-weight: bolder;/*ancho o grueso de la letra*/
+	line-height: 20px;/*alto para separar las líneas*/
+	padding: 10px;/*separar un poco el parrafo*/
+	text-align: justify;/*alineado del parrafo*/
+	color: #ededf8;
+	}
+
+.parrafoaside{
+	    font-size: 15px;
+    	font-weight: bolder;
+    	line-height: 20px;
+    	padding: 10px;
+    	text-align: justify;
+    	color: #ededf8;
+		}
+
+.parrafoasidequienessomos{
+	    font-size: 15px;
+    	font-weight: bolder;
+    	line-height: 20px;
+    	padding: 10px;
+    	text-align: justify;
+    	color: #ededf8;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
